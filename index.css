@@ -40,33 +40,46 @@ li {
 }
 .card-container {
     display: flex;
+    gap: 20px;
+    justify-content:baseline ;
+    padding: 20px;
     /* border: 1px solid #000; */
 }
 .card {
-    border: 1px solid #000;
-    background-color: #f9f9f9;
-    width: 400px;
+    /* border: 1px solid #000; */
+    background-color: #dce3e7;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    height: 600px;
     text-align: center;
 }
 .card-img {
     width: 100%;
-    border-radius: ;
+    border-radius: 8px;
 
 }
 .card-titre {
     font-size: 1.5rem;
-    margin: 2rem 0;
+    margin: 15px 0;
 }
 .card-desc {
-font-size: 1rem;
-margin: 1rem 0;
+font-size: 1em;
+color: #555;
 }
 .card-prix {
 font-size: 1.2em;
 color: #e67e22;
 margin: 10px 0;
 }
-.btn-cart { 
+.card-btn { 
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 
 }
 
